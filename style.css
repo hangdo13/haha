@@ -1,0 +1,91 @@
+* {
+    margin: 10 px;
+    padding: 0 px;
+  }
+  
+  body {
+    font-family: "Georgia", serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .report,.git {
+    background-color: gainsboro;
+    border-radius: 100px;
+    border: none;
+    height: 50px;
+    width:120px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  .video {
+    background-color: gainsboro;
+    border-radius: 100px;
+    border: none;
+    height: 50px;
+    width:200px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  .report:hover, .git:hover, .video:hover{
+    background-color: #737673; 
+    color: #fff;
+
+  }
+
+
+  .section_text {
+    text-align: center;
+    line-height: 30px;
+
+  }
+
+  .title {
+    background-color: #f0f0f0;  
+  padding: 20px 450px;       
+  color: #333;              
+  display: inline-block;     
+  font-size: 27px;  
+  letter-spacing: 2px;
+  border-radius: 20px;
+  }
+
+  .course, .prof {
+    font-size: 17px;
+  }
+
+
+  .overview {
+    font-size: 17px;
+    margin-right: 120px;
+  margin-left: 120px;
+  }
+  
+  .pic1 {
+    display: flex;
+    gap: 20px; /* Adds spacing between figures */
+    justify-content: center; /* Center aligns all figures horizontally */
+    align-items: center; /* Aligns all items vertically */
+}
+
+.pic1 figure {
+    text-align: center; /* Centers the caption under each image */
+    width: 150px; /* Optional: set a fixed width for each figure */
+}
+
+.pic1 img {
+    width: 100%; /* Makes the image fit the figure's width */
+    height: auto; /* Keeps image aspect ratio */
+}
+
+.Nino, .Hannah,.Lan,.Avinash {
+  width: 40px;
+  height: 60px;
+  border-radius: 90px;
+}
